@@ -7,8 +7,8 @@ with open(path.join(here, "README.rst"), encoding="utf-8") as f:
     long_description = f.read()
 
 requires = [
-    "torch==1.13.1",
-    "numpy==1.23.0",
+    "torch",
+    "numpy",
     "pandas",
     "psutil",
     "threadpoolctl",
